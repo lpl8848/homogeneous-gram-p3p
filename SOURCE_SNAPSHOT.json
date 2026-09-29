@@ -1,0 +1,69 @@
+{
+  "snapshot": "2026-09-29",
+  "files": {
+    "gram_normal_p3p.h": {
+      "frozen_source_sha256": "9fbf6d85efc0df30a67c413f2bdf84007fdf90928a6ccbe5fa5df534cc8482f6",
+      "packaged_sha256": "5982b7bb6fc4131167bf44410f07e795db5c95a398110746643922be2e6e2033"
+    },
+    "gram_normal_solver.h": {
+      "frozen_source_sha256": "be7b10e1212fc3203826e6f6faa30b916116d53df018929c2f3d60fe1dfcd25e",
+      "packaged_sha256": "36de76e203ac7ddf1c8257e6bad161a1df243b296a0e7bc8a78a429adbc61c29"
+    },
+    "rational_normal_p3p.h": {
+      "frozen_source_sha256": "df9bdc86503785a614dff7816af0fb7485af92a0fb9020127685f9181f129cfc",
+      "packaged_sha256": "6b1eddf9c4188395b8bd5879819859623cbe9a4a3660bb6596548dce2208d713"
+    },
+    "rational_normal_solver.h": {
+      "frozen_source_sha256": "785e55f1977c34ff0804b325fa2d1c9db54ced63f0ee342f1c31d17730195161",
+      "packaged_sha256": "149d9da8a57d17171362d563c623678e36bf6794433db5e86e472a0f4b8c33ae"
+    },
+    "experimental_circle_p3p.h": {
+      "frozen_source_sha256": "965f65ef2aa655b822d19bab25138d9f3c009e04043e7c3be92b4a441f6ca4a1",
+      "packaged_sha256": "5282ece11189cf9f5cc7927e600a11c63dafd5a020b423a3880f1df593a21b85"
+    },
+    "monic_quartic.h": {
+      "frozen_source_sha256": "e1781ea36cc8b1dd0aebfd0eb3c078d0046db79a32152de3f8b02ebfee717de3",
+      "packaged_sha256": "212df963314af178e462e2ad140a482383fbae74b2f5b7d3a1c0a76240663eab"
+    },
+    "fast_real_quartic.h": {
+      "frozen_source_sha256": "623d1dc7607d28f9a7f1883f77e0e2df86b0dc827c6885df3b9ddd49386516a0",
+      "packaged_sha256": "05527d5472cb34ff5d28f905de946fa3f0c63d788fe569c5bc0f05c02dfb2a1a"
+    },
+    "fast_cuberoot.h": {
+      "frozen_source_sha256": "36c07f6a2ef35154a4184672abd8cd5681fa919c6368c3c3ed2ad978ad1dfc57",
+      "packaged_sha256": "714b933220bc5c4e4a3ae7e2affaeb0564bedf8fe6feeb69f4fc7f81a7df79a3"
+    },
+    "projective_circle_root.h": {
+      "frozen_source_sha256": "13267cf5e8a47a012c74a48a8b24ec3860a3fa4dd9493d5196c11534e029e6a8",
+      "packaged_sha256": "604f588638a2ae1228e9071a3236438120b192ba5bc688b5d0d8610e691a016d"
+    },
+    "rotor_householder.h": {
+      "frozen_source_sha256": "9c4ef90ea6f6690a53977071babfc8ff2d2eeb8df763212a7caf1b4af302d097",
+      "packaged_sha256": "9c4ef90ea6f6690a53977071babfc8ff2d2eeb8df763212a7caf1b4af302d097"
+    },
+    "sparse_householder.h": {
+      "frozen_source_sha256": "03e5ddc5f11f6e548ecd4841483d680023064ebe8b636f46d3a33a34c12477bc",
+      "packaged_sha256": "6ff337a8040683bcaaa9851f4c3a1af53a1e2930a5ac9316026f6f72e2ebeccf"
+    },
+    "matrix_pose.h": {
+      "frozen_source_sha256": "1d91e97c7e46e967830a33ec81733119e66a8b2dfa176006952418a4edfd8799",
+      "packaged_sha256": "1d91e97c7e46e967830a33ec81733119e66a8b2dfa176006952418a4edfd8799"
+    }
+  },
+  "notes": "Packaging edits remove unused benchmark/pose-helper code and dependencies; active numerical operations and template policy are retained.",
+  "third_party": {
+    "PoseLib": {
+      "repository": "https://github.com/PoseLib/PoseLib",
+      "commit": "1758bd6d20f607c276388d28b5ba88f3651e85e9",
+      "license": "BSD-3-Clause",
+      "files": {
+        "univariate.h": "1784168db2a53beb6c7805d3f74de469eeac5aceed6f20c8aa55dc61ee2297b8",
+        "univariate.cc": "dd26b410f2e41bb2c2cff11b4fd3276bf77cc1ee767605dcd3caa6bb67309823"
+      }
+    }
+  },
+  "extracted_helpers": {
+    "geometry.h": "095ca7613ffd9cdd498c63801ad09439befa34a25cb0f979c315da2e10d8be74",
+    "algebraic_roots.h": "f3e7fbc2caf9a9519abb89bd0dde7286096a1f36b3747507b6883c4e264a7ea3"
+  }
+}

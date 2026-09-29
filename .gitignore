@@ -1,0 +1,12 @@
+/build*/
+/results/
+__pycache__/
+*.pyc
+*.exe
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+.DS_Store
